@@ -6,11 +6,18 @@
                 <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
                     <div class="container ww-announcement-container">
                         <div class="mt-lg-5 mb-md-5 p-4" data-aos="zoom-in-down">
-                            <h1 class="ww_my_wedding">MIS QUINCE </h1>
+                            <h1 class="ww_my_wedding">MI BODA </h1>
                         </div>
-                        <h1 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
-                            <span class="ww-title">Ruby Escobedo Cruz</span>
-                        </h1>
+                        <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+                            <span class="ww-title">Mariela Jaquelin Escobedo Luna</span>
+                        </h3>
+                        <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+                            <span class="ww-title">Y</span>
+                        </h3>
+
+                        <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+                            <span class="ww-title">Eduardo Campillo Santos</span>
+                        </h3>
                         <div class="hei">
                             <div class="p-4">
                             </div>
@@ -19,7 +26,7 @@
                         </div>
                         <div class="simply-countdown simply-countdown-one mt-4"></div>
                         <p class="flex mt-2 ww-title_date" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000"
-                           data-aos-offset="10">22 de Junio 2024
+                           data-aos-offset="10">24 de Agosto 2024
                         </p>
 
                     </div>

@@ -37,6 +37,12 @@ body {
   font-weight: 400;
   src: url('../fonts/Tinos/Tinos-Regular.ttf');
 }
+@font-face {
+  font-family: 'glitter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Glitter.ttf');
+}
 .poppins_regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -50,7 +56,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/quinceanera/quinceaanera3.jpeg") no-repeat center center;
+  background: url("../images/wwed/main/fondo.jpg") no-repeat center center;
   background-size: cover;
   background-position: 100%;
   height: 110vh;
@@ -76,7 +82,7 @@ body {
       }
     }
     .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-      max-width: 600px;
+      max-width: 900px;
       text-align: center;
       margin-left: 0;
       z-index: 999; }
@@ -141,24 +147,24 @@ body {
   font-size: 60px;
 }
 .ww_my_wedding{
-  font-family: "Tinos-Regular", cursive;
+  font-family: "glitter", cursive;
   font-size: 40px;
 }
 @media (max-width: 576px){
   .ww_my_wedding{
-    font-family: "Tinos-Regular", cursive;
+    font-family: "glitter", cursive;
     font-size: 42px;
   }
 }
 @media (max-width: 400px){
     .ww_my_wedding{
-        font-family: "Tinos-Regular", cursive;
+        font-family: "glitter", cursive;
         font-size: 39px;
     }
 }
 @media (max-width: 390px){
     .ww_my_wedding{
-        font-family: "Tinos-Regular", cursive;
+        font-family: "glitter", cursive;
         font-size: 39px;
         max-height: 10px;
     }
