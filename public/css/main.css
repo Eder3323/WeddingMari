@@ -1,0 +1,497 @@
+body {
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  --main-color: 88957b;
+  --second-color: cf9c63;
+}
+/*green: #88957b*/
+/*gold: #cf9c63*/
+
+#mute-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'Avenue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Avenue/Avenue du Vapoteur.ttf');
+}
+@font-face {
+  font-family: 'Tinos-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Tinos/Tinos-Regular.ttf');
+}
+.poppins_regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins_light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Home Page Style */
+.ww-home-page {
+  background: url("../images/quinceanera/quinceaanera3.jpeg") no-repeat center center;
+  background-size: cover;
+  background-position: 100%;
+  height: 110vh;
+  min-height: 480px;
+  max-height: 1080px; }
+@media (max-width: 576px) {
+  .ww-home-page {
+    background-position: 50%;
+    height: 100vh;
+  }
+}
+  .ww-home-page .ww-wedding-announcement {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px; }
+    @media (max-width: 576px){
+      .ww-home-page .ww-wedding-announcement{
+        height: 100%;
+      }
+    }
+    .ww-home-page .ww-wedding-announcement .ww-announcement-container {
+      max-width: 600px;
+      text-align: center;
+      margin-left: 0;
+      z-index: 999; }
+    .ww-home-page .ww-wedding-announcement img {
+      max-height: 180px;
+      width: auto; }
+      @media (max-width: 480px) {
+        .ww-home-page .ww-wedding-announcement img {
+          max-height: 320px;
+          width: auto; } }
+    .ww-home-page .ww-wedding-announcement .ww-couple-name {
+      font-size: 80px;
+    }
+      @media (max-width: 576px) {
+        .ww-home-page .ww-wedding-announcement .ww-couple-name {
+          font-size: 65px;
+        }
+      }
+        @media (max-width: 410px) {
+            .ww-home-page .ww-wedding-announcement .ww-couple-name {
+                font-size: 58px;
+            }
+        }
+        @media (max-width: 358px) {
+            .ww-home-page .ww-wedding-announcement .ww-couple-name{
+                font-size: 52px;
+            }
+            .ww-couple-name{
+                max-height: 10px;
+            }
+        }
+.my_title{
+  font-size: 50px;
+}
+@media (max-width: 576px) {
+  .my_title {
+    font-size: 60px; }
+}
+
+/* Common Style */
+.my_text{
+  font-family: "Dosis", sans-serif;
+  color: gray;
+  font-size: 20px;
+}
+.ww-title {
+  font-family: "Great Vibes", cursive;
+}
+.www-title-rose-color{
+  color:#cf9c63; /*# e5bdb6 */
+}
+.ww-title_date{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.ww_my_title_{
+  font-family: "Avenue", cursive;
+}
+.ww_my_date{
+  font-size: 60px;
+}
+.ww_my_wedding{
+  font-family: "Tinos-Regular", cursive;
+  font-size: 40px;
+}
+@media (max-width: 576px){
+  .ww_my_wedding{
+    font-family: "Tinos-Regular", cursive;
+    font-size: 42px;
+  }
+}
+@media (max-width: 400px){
+    .ww_my_wedding{
+        font-family: "Tinos-Regular", cursive;
+        font-size: 39px;
+    }
+}
+@media (max-width: 390px){
+    .ww_my_wedding{
+        font-family: "Tinos-Regular", cursive;
+        font-size: 39px;
+        max-height: 10px;
+    }
+}
+
+.ww-home-page:before {
+  content: "";
+  background-color: rgba(245, 138, 119, 0.2);
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* Nav Bar Style */
+.ww-nav-bar .heart {
+  fill: #f26147;
+  position: relative;
+  top: 2px;
+  width: 40px;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite; }
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); } }
+
+.ww-nav-bar .nav-item {
+  font-size: 18px;
+  padding: 5px 0 5px 16px;
+  font-weight: 500; }
+
+/* Wedding Event Style */
+.ww-wedding-event ul {
+  list-style: none;
+  padding-left: 0; }
+
+/* Couple Friends Style  */
+.ww-couple-friends .carousel {
+  padding: 40px 0; }
+
+.ww-couple-friends .carousel-indicators {
+  bottom: 0px; }
+  .ww-couple-friends .carousel-indicators li {
+    background-color: #6c757d; }
+  .ww-couple-friends .carousel-indicators .active {
+    background-color: #f58a77; }
+
+/* Photo Gallery Style */
+.ww-photo-gallery .ww-category-filter a {
+  display: inline-block;
+  margin: 0 10px 6px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px; }
+
+.ww-photo-gallery .ww-gallery {
+  min-height: 500px; }
+
+.ww-photo-gallery .card-columns .card {
+  border: none;
+  margin-bottom: 15px;
+  border-radius: none; }
+
+@media (max-width: 992px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 2;
+         column-count: 2; } }
+
+@media (max-width: 576px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 1;
+         column-count: 1; } }
+
+/* RSVP Style */
+.form_class{
+  /*border: 1px solid black;*/
+  border: 2px solid #88957b;
+  height: 50px !important;
+}
+
+.ww-rsvp-detail {
+  /*background: url("../images/marmol.jpg") no-repeat center center;*/
+  /*background-color: white;*/
+  background-size: cover;
+  min-height: 500px;
+  position: relative; }
+  .ww-rsvp-detail .ww-rsvp-form {
+    padding-left: 25%;
+  }
+    @media (max-width: 768px) {
+      .ww-rsvp-detail .ww-rsvp-form {
+        padding-left: 10%; } }
+    @media (max-width: 576px) {
+      .ww-rsvp-detail .ww-rsvp-form {
+        padding-left: 0%; } }
+    .ww-rsvp-detail .ww-rsvp-form .form-control {
+      /*background-color: rgba(222, 222, 222, 0.2);*/
+      /*color: #fff;*/
+      border: 1px solid #88957b;
+    }
+    .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
+      color: #dedede; }
+    .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
+      color: #dedede; }
+    .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
+      color: #dedede; }
+    .ww-rsvp-detail .ww-rsvp-form select.form-control option {
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff; }
+    .ww-rsvp-detail .ww-rsvp-form .btn-submit {
+      background-color: #88957b;
+      padding: 0.45rem 1.5rem;
+      border: 0;
+      height: 45px;
+      font-size: 20px;
+      color: white;
+    }
+
+.ww-rsvp-detail:before {
+  content: "";
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* Footer Style */
+.ww-footer a.credit {
+  color: inherit;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+  cursor: pointer; }
+
+.montserrat_my_text{
+  font-family: "Montserrat-Medium",cursive !important;
+}
+
+.ww-section {
+  padding: 100px 0;
+}
+
+.btn-primary {
+  color: #fff; }
+
+.btn-outline-primary:hover {
+  color: #fff; }
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.simply-countdown {
+  /* The countdown */
+  margin-bottom: 2em;
+}
+.simply-countdown > .simply-section {
+  /* coutndown blocks */
+  display: inline-block;
+  width: 90px;
+  height: 100px;
+  margin: 0 4px;
+  /*border-radius: 5%;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3); /* Negro con una opacidad del 50% */
+}
+.simply-countdown > .simply-section > div {
+  /* countdown block inner div */
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+}
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
+  /* amounts and words */
+  display: block;
+  color: white;
+}
+.simply-countdown > .simply-section .simply-amount {
+  /* amounts*/
+  font-size: 50px;
+  font-family: "Tinos", serif;
+  line-height: 1; !important;
+}
+@media (max-width: 576px){
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 35px;
+    /* amounts */
+  }
+  .simply-countdown > .simply-section{
+    width: 74px;
+  }
+}
+.simply-countdown > .simply-section .simply-word {
+  /* words */
+  color: white;
+  font-size: 18px;
+}
+
+
+.flower_class{
+  max-width: 160px;
+  max-height: 140px;
+  display: block;
+  margin: 0 auto;
+}
+.dress_class{
+  max-width: 90px;
+  max-height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+.church_class{
+  max-width: 120px;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+/* ----------         ROUNDED BORDER        ---------*/
+.hr_rounded {
+  border-top: 55px solid #88957b;
+  border-radius: 5px;
+}
+.church_btn{
+  color: white !important;
+  background-color: #88957b !important;
+  border-color: #abbf97 !important;
+}
+.party_btn{
+  color: white !important;
+  background-color: #cf9c63 !important;
+  border-color: #ebb375 !important;
+}
+.maps_color{
+  color:darkred !important;
+}
+
+
+.hr_second {
+  border-top: 55px solid #cf9c63;
+  border-radius: 5px;
+}
+
+/* ----------         SHADOW        ---------*/
+.custom-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+
+
+/* ---------- MIS PALABRAS FRAME--------- */
+.frame_blue {
+  border: 1px solid #cf9c63; /* Border color */
+  position: absolute;
+  bottom: -70px; /* Default bottom position */
+  left: 30%; /* Default left position */
+  right: 0;
+  width: 480px; /* Default width */
+}
+.quote_color{
+  color: #cf9c63; /* Border color */
+  position: absolute;
+  top: -17%; /* Default top position */
+  left: 44%; /* Default left position */
+}
+.quote-container {
+  /*background-color: #ecc0bc;*/
+  background-color: #88957b;
+  padding-top: 160px;
+  position: relative;
+}
+.green_class{
+  background-color: #88957b;
+}
+.white-letter {
+  color: white;
+}
+.rouge-script {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Responsive styles */
+@media (max-width: 676px) {
+  .frame_blue {
+    width: auto; /* Adjust width for smaller screens */
+    bottom: -70px; /* Adjust bottom position */
+    left: 0; /* Adjust left position */
+  }
+  .quote_color {
+    top: -20%; /* Default top position */
+  }
+}
+@media (max-width: 550px) {
+  .quote_color {
+    top: -13%; /* Default top position */
+  }
+}
+@media (max-width: 354px) {
+  .frame_blue {
+    bottom: -80px; /* Adjust bottom position for smaller screens */
+    left: 0; /* Adjust left position */
+  }
+  .quote_color {
+    top: -16%; /* Default top position */
+  }
+  .rouge-script {
+    font-size: 30px; /* Adjust font size */
+  }
+}
+/* ---------- MIS FORMULARIO--------- */
+.frame_dorado {
+  border: 1px solid #88957b; /* Border color */
+}
+
+
