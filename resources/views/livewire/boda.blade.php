@@ -6,18 +6,24 @@
                 <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
                     <div class="container ww-announcement-container">
                         <div class="mt-lg-5 mb-md-5 p-4" data-aos="zoom-in-down">
-                            <h1 class="ww_my_wedding">MI BODA </h1>
+                            <h1 class="ww_my_wedding">
+                                NUESTRA BODA
+                                <img src="{{asset('images/wwed/rings/rings.png')}}" style="height: 55px">
+                            </h1>
+
                         </div>
-                        <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
-                            <span class="ww-title">Mariela Jaquelin Escobedo Luna</span>
-                        </h3>
+                        <h1 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+                            <span class="ww-title">Mariela</span>
+{{--                            Mariela Jaquelin Escobedo Luna--}}
+                        </h1>
                         <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
                             <span class="ww-title">Y</span>
                         </h3>
 
-                        <h3 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
-                            <span class="ww-title">Eduardo Campillo Santos</span>
-                        </h3>
+                        <h1 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+                            <span class="ww-title">Eduardo</span>
+{{--                            Eduardo Campillo Santos--}}
+                        </h1>
                         <div class="hei">
                             <div class="p-4">
                             </div>
@@ -33,13 +39,18 @@
                 </div>
             </div>
 
-{{-------------------            PADRES  --}}
+{{-------------------            NUESTRA HISTORIA  --}}
                 <div class="ww-section" id="Parents">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="../images/horse/horse.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Mis Padres</h1>
+                                <img class="img-fluid flower_class mb-2" src="{{asset('images/wwed/couple/history.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color"
+                                    data-aos="zoom-in-down" data-aos-duration="1000">Nuestra Historia</h1>
+                                <div class="container">
+                                    <p class=" text-center poppins_regular">Nuestra historia comienza un 18 de febrero del 2016 en una fiesta de una amiga en común, nos presentaron, empezamos a salir y finalmente nos convertimos en novios un 8 de mayo del mismo año. Hoy les anunciamos nuestro próximo matrimonio.</p>
+
+                                </div>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center justify-content-center pb-4">
@@ -48,33 +59,32 @@
                         </div>
                         <div class="row text-center pt-2">
                             <div class="col-md-4 mt-3" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Alejandro Escobedo Lira</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Agradezco a Dios la oportunidad de ver a mi adorada hija el día de hoy convertida en una mujer. Agradezco la suerte de ser tu padre y quiero que sepas lo orgulloso que estoy de verte hoy tan hermosa y tan realizada. ¡Feliz quince años! Te quiero hasta el cielo y más allá.</p>
+                                <h3 class="h2 rouge-script">Mariela Jaquelin Escobedo Luna</h3>
+                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Lo que más me gusta de Eduardo es su honestidad y romanticismo. Es una persona increíble y cada día me enamoro más de el. Me sorprende constantemente y es mi compañía y apoyo en cada cosa que realizo.</p>
                             </div>
                             <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="../images/padrinos/parents2.jpeg" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100" src="{{asset('images/wwed/couple/couple.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Araceli Cruz Cervantes</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Me has enseñado la construcción de la originalidad en la vida, me has enseñado a ser mamá a ser amiga, a ser compañera de camino. Hoy, que cumples tus 15 años, quiero darle gracias a Dios, por la vida, y porque me ha dado la oportunidad de acompañarte, de apoyarte y amarte.</p>
+                                <h3 class="h2 rouge-script">Eduardo Campillo Santos</h3>
+                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Gracias a Jaque mi vida cambio completamente. Me hace muy feliz y saca la mejor versión de mi. Es mi compañera ideal, me comprende y me brinda mucha paz. Gracias por no dudar y darme el si.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            <hr class="hr_rounded rounded">
+            <hr class="hr_rounded rounded my-0">
+            <div class="image_ground_green"></div>
 
-{{--    --}}{{----}}{{-------------------          1  PADRINOS VESTIDO --}}
-                <div class="ww-section" id="Padrinos">
+{{--    --}}{{----}}{{-------------------            PADRES--}}
+                <div class="ww-section" id="PADRES">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="../images/horse/horse2.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h1 class="h1 text-center  rouge-script www-title-rose-color"
-                                    data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Velación
-                                </h1>
-                                <!-- <img class="img-fluid dress_class mb-2 pb-3"
-                                     src="../images/flowers/vestido/dress.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
+                                <img class="img-fluid flower_class mb-2" src="{{asset('images/wwed/parents/heart.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color"
+                                    data-aos="zoom-in-down" data-aos-duration="1000">Nuestros Padres</h1>
+                                <p class="text-center poppins_regular">¡Gracias por su apoyo incondicional a lo largo de toda nuestra vida, los amamos!</p>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center justify-content-center pb-4">
@@ -82,53 +92,27 @@
                             </div>
                         </div>
                         <div class="row text-center pt-2">
-                            <div class="col-md-4 mt-3" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">José Cruz</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi amada Ruby agradezco a Dios y a tus padres por hacerme el tío más feliz y hoy a ti por elegirme tu padrino. Que hoy, mañana y siempre seas la mujer más feliz de este mundo te quiero mucho mi Ruby.</p>
+                            <div class="col-md-4" data-aos='fade-right'>
+                                <h3 class="h2 poppins_regular pb-4">👰</h3>
+                                <h3 class="h2 poppins_regular pb-4">Tomas Escobedo Ramírez</h3>
+                                <h3 class="h2 poppins_light"> Minerva Luna Saavedra</h3>
                             </div>
                             <div class="col-md-4 pb-4">
-                                <img class="img-fluid w-100 " src="../images/padrinos/dress4.png" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100 " src="{{asset('images/wwed/parents/parents.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Saraí Nolasco</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Vuela Ruby, que nadie te detendrá, lucha por tus sueños, ve en busca de lo que realmente anhelas. Felices quince años. Para una linda mujer que hoy ha desplegado las alas para convertirse en una hermosa mariposa. Nunca dejes de soñar, que tus padrinos estaremos siempre para apoyarte.</p>
+                                <h3 class="h2 poppins_regular pb-4">🤵‍♂️</h3>
+
+                                <h3 class="h2 pb-4 poppins_regular"> Alberto Mauro Campillo Picazo</h3>
+                                <h3 class="h2 poppins_light "> Adriana Gloria Edith Santos López</h3>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            <hr class="hr_second rounded">
+            <hr class="hr_rounded rounded my-0">
+            <div class="image_ground_green"></div>
 
-            {{--    --}}{{----}}{{-------------------     2       PADRINOS MISA --}}
-            <div class="ww-section" id="Padrinos">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <img class="img-fluid flower_class mb-2" src="../images/horse/horse3.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                            <h1 class="h1 text-center rouge-script www-title-rose-color"
-                                data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Iglesia
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center pb-4">
-                        <div class="col-md-8 col-sm-10">
-                        </div>
-                    </div>
-                    <div class="row text-center pt-2">
-                        <div class="col-md-4 mt-3" data-aos='fade-right'>
-                            <h3 class="h2 rouge-script">Silviano Ortíz</h3>
-                            <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ruby, desde que llegaste a nuestras vidas, has sido una fuente inagotable de alegría. Ser tu padrino es un honor que valoro mucho. En tus quince años, te deseo una vida llena de amor y felicidad. Siempre estaré aquí para ti. Te quiero muchísimo.! </p>
-                        </div>
-                        <div class="col-md-4 pb-4">
-                            <img class="img-fluid w-100" src="../images/padrinos/example3.png" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                        </div>
-                        <div class="col-md-4" data-aos='fade-right'>
-                            <h3 class="h2 rouge-script">Lidia Morales</h3>
-                            <p class="pt-3 text-md-left text-sm-center poppins_regular">Querida Ruby, en tus quince años, te deseo que vueles alto y persigas tus sueños con valentía. Hoy despliegas tus alas para convertirte en una hermosa mariposa, y siempre estaré aquí para apoyarte en cada vuelo. ¡Feliz cumpleaños, linda mujer!.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 {{--            --}}{{----}}{{----------            MIS PALABRAS --}}
             <div class="py-5">
@@ -140,10 +124,11 @@
                             <div class="d-flex justify-content-center text-center">
                                 <div class="w-100 m-4 pb-4">
                                     <h1 class="rouge-script white-letter" >
-                                        "Aquí y ahora, cierro una etapa y me abro a todo lo bueno que la vida tiene para mí"
+                                        De nadie seré, solo de ti, hasta que mis huesos se vuelvan cenizas y mi corazón deje de latir
                                     </h1>
                                 </div>
                             </div>
+                            <p class="text-center poppins_regular font-weight-light ">PABLO NERUDA</p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +139,7 @@
                 <div class="container ww-wedding-event">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="../images/horse/horse4.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{asset('images/wwed/location/location.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center pb-3 ww-title www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">¿Dónde y Cuándo?</h1>
                         </div>

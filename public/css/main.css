@@ -82,7 +82,7 @@ body {
       }
     }
     .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-      max-width: 900px;
+      max-width: 650px;
       text-align: center;
       margin-left: 0;
       z-index: 999; }
@@ -132,7 +132,7 @@ body {
   font-family: "Great Vibes", cursive;
 }
 .www-title-rose-color{
-  color:#cf9c63; /*# e5bdb6 */
+  color:#ab9f60; /*# e5bdb6 */
 }
 .ww-title_date{
     font-family: "Great Vibes", cursive;
@@ -147,24 +147,24 @@ body {
   font-size: 60px;
 }
 .ww_my_wedding{
-  font-family: "glitter", cursive;
-  font-size: 40px;
+  font-family: "Tinos-Regular", cursive;
+  font-size: 60px;
 }
 @media (max-width: 576px){
   .ww_my_wedding{
-    font-family: "glitter", cursive;
+    font-family: "Tinos-Regular", cursive;
     font-size: 42px;
   }
 }
 @media (max-width: 400px){
     .ww_my_wedding{
-        font-family: "glitter", cursive;
-        font-size: 39px;
+        font-family: "Tinos-Regular", cursive;
+        font-size: 55px;
     }
 }
 @media (max-width: 390px){
     .ww_my_wedding{
-        font-family: "glitter", cursive;
+        font-family: "Tinos-Regular", cursive;
         font-size: 39px;
         max-height: 10px;
     }
@@ -404,8 +404,23 @@ body {
 }
 /* ----------         ROUNDED BORDER        ---------*/
 .hr_rounded {
-  border-top: 55px solid #88957b;
+  border-top: 50px solid #88957b;
   border-radius: 5px;
+
+}
+.image_ground_green{
+  padding-bottom: 45px;
+  background-image: url('../images/wwed/flowers/flower2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.image_ground_brown{
+  padding-bottom: 45px;
+  background-image: url('../images/wwed/main/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .church_btn{
   color: white !important;
@@ -436,7 +451,7 @@ body {
 
 /* ---------- MIS PALABRAS FRAME--------- */
 .frame_blue {
-  border: 1px solid #cf9c63; /* Border color */
+  border: 1px solid #ab9f60; /* Border color */
   position: absolute;
   bottom: -70px; /* Default bottom position */
   left: 30%; /* Default left position */
@@ -444,14 +459,14 @@ body {
   width: 480px; /* Default width */
 }
 .quote_color{
-  color: #cf9c63; /* Border color */
+  color: #ab9f60; /* Border color */
   position: absolute;
   top: -17%; /* Default top position */
   left: 44%; /* Default left position */
 }
 .quote-container {
   /*background-color: #ecc0bc;*/
-  background-color: #88957b;
+  background-color: #bec082;
   padding-top: 160px;
   position: relative;
 }
