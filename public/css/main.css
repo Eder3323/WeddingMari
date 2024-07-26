@@ -56,7 +56,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/wwed/main/fondo.jpg") no-repeat center center;
+  background: url("../images/mary/main/fondo.jpg") no-repeat center center;
   background-size: cover;
   background-position: 100%;
   height: 110vh;
@@ -159,14 +159,14 @@ body {
 @media (max-width: 400px){
     .ww_my_wedding{
         font-family: "Tinos-Regular", cursive;
-        font-size: 55px;
+        font-size: 25px;
     }
 }
 @media (max-width: 390px){
     .ww_my_wedding{
         font-family: "Tinos-Regular", cursive;
-        font-size: 39px;
-        max-height: 10px;
+        font-size: 34px;
+        max-height: 72px;
     }
 }
 
@@ -389,6 +389,7 @@ body {
   max-height: 140px;
   display: block;
   margin: 0 auto;
+  padding-bottom: 5px;
 }
 .dress_class{
   max-width: 90px;
@@ -408,20 +409,8 @@ body {
   border-radius: 5px;
 
 }
-.image_ground_green{
-  padding-bottom: 45px;
-  background-image: url('../images/wwed/flowers/flower2.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.image_ground_brown{
-  padding-bottom: 45px;
-  background-image: url('../images/wwed/main/background.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+
+
 .church_btn{
   color: white !important;
   background-color: #88957b !important;
@@ -433,7 +422,7 @@ body {
   border-color: #ebb375 !important;
 }
 .maps_color{
-  color:darkred !important;
+  color:white !important;
 }
 
 
@@ -463,11 +452,18 @@ body {
   position: absolute;
   top: -17%; /* Default top position */
   left: 44%; /* Default left position */
+  background: #bec082;
+}
+@media (max-width: 510px) {
+  .quote_color {
+    /*background transparent */
+    background: transparent;
+  }
 }
 .quote-container {
   /*background-color: #ecc0bc;*/
   background-color: #bec082;
-  padding-top: 160px;
+  padding-top: 166px;
   position: relative;
 }
 .green_class{
@@ -513,6 +509,25 @@ body {
 /* ---------- MIS FORMULARIO--------- */
 .frame_dorado {
   border: 1px solid #88957b; /* Border color */
+}
+
+
+
+/* ---------- MAPS --------- */
+.responsive-iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* Relación de aspecto 16:9 */
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 

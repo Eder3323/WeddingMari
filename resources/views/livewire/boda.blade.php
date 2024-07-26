@@ -8,7 +8,7 @@
                         <div class="mt-lg-5 mb-md-5 p-4" data-aos="zoom-in-down">
                             <h1 class="ww_my_wedding">
                                 NUESTRA BODA
-                                <img src="{{asset('images/wwed/rings/rings.png')}}" style="height: 55px">
+                                <img src="{{asset('images/mary/rings/rings.png')}}" style="height: 55px">
                             </h1>
 
                         </div>
@@ -25,9 +25,8 @@
 {{--                            Eduardo Campillo Santos--}}
                         </h1>
                         <div class="hei">
-                            <div class="p-4">
-                            </div>
-                            <div class="p-3">
+
+                            <div class="p-2">
                             </div>
                         </div>
                         <div class="simply-countdown simply-countdown-one mt-4"></div>
@@ -44,7 +43,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{asset('images/wwed/couple/history.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{asset('images/mary/couple/history.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color"
                                     data-aos="zoom-in-down" data-aos-duration="1000">Nuestra Historia</h1>
                                 <div class="container">
@@ -63,7 +62,7 @@
                                 <p class="pt-3 text-md-right text-sm-center poppins_regular ">Lo que más me gusta de Eduardo es su honestidad y romanticismo. Es una persona increíble y cada día me enamoro más de el. Me sorprende constantemente y es mi compañía y apoyo en cada cosa que realizo.</p>
                             </div>
                             <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="{{asset('images/wwed/couple/couple.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100" src="{{asset('images/mary/couple/couple.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Eduardo Campillo Santos</h3>
@@ -73,15 +72,14 @@
                     </div>
                 </div>
 
-            <hr class="hr_rounded rounded my-0">
-            <div class="image_ground_green"></div>
+
 
 {{--    --}}{{----}}{{-------------------            PADRES--}}
                 <div class="ww-section" id="PADRES">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{asset('images/wwed/parents/heart.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{asset('images/mary/parents/heart.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color"
                                     data-aos="zoom-in-down" data-aos-duration="1000">Nuestros Padres</h1>
                                 <p class="text-center poppins_regular">¡Gracias por su apoyo incondicional a lo largo de toda nuestra vida, los amamos!</p>
@@ -93,25 +91,21 @@
                         </div>
                         <div class="row text-center pt-2">
                             <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 poppins_regular pb-4">👰</h3>
+                                <span class="badge text-bg-light">Ella</span>
                                 <h3 class="h2 poppins_regular pb-4">Tomas Escobedo Ramírez</h3>
-                                <h3 class="h2 poppins_light"> Minerva Luna Saavedra</h3>
+                                <h3 class="h2 poppins_regular "> Minerva Luna Saavedra</h3>
                             </div>
                             <div class="col-md-4 pb-4">
-                                <img class="img-fluid w-100 " src="{{asset('images/wwed/parents/parents.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100 " src="{{asset('images/mary/parents/parents.png')}}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 poppins_regular pb-4">🤵‍♂️</h3>
-
+                                <span class="badge text-bg-light">Él</span>
                                 <h3 class="h2 pb-4 poppins_regular"> Alberto Mauro Campillo Picazo</h3>
-                                <h3 class="h2 poppins_light "> Adriana Gloria Edith Santos López</h3>
+                                <h3 class="h2 poppins_regular "> Adriana Gloria Edith Santos López</h3>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            <hr class="hr_rounded rounded my-0">
-            <div class="image_ground_green"></div>
 
 
 {{--            --}}{{----}}{{----------            MIS PALABRAS --}}
@@ -120,9 +114,9 @@
                     <div class="ww-section quote-container"
                          data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000" id="MIS_PALABRAS">
                         <div class="frame_blue m-4 h-auto">
-                            <i class="fas fa-quote-left fa-3x quote_color"></i>
+                                <i class="fas fa-quote-left fa-3x quote_color px-2"></i>
                             <div class="d-flex justify-content-center text-center">
-                                <div class="w-100 m-4 pb-4">
+                                <div class="w-100 m-4 pb-0">
                                     <h1 class="rouge-script white-letter" >
                                         De nadie seré, solo de ti, hasta que mis huesos se vuelvan cenizas y mi corazón deje de latir
                                     </h1>
@@ -139,52 +133,41 @@
                 <div class="container ww-wedding-event">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="{{asset('images/wwed/location/location.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{asset('images/mary/location/location.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center pb-3 ww-title www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">¿Dónde y Cuándo?</h1>
                         </div>
                     </div>
                     <div class="row ">
-                        <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-3 " data-aos="fade-down-right" data-aos-duration="1000">
+                        <div class="col-sm-12 d-flex justify-content-center align-items-center pt-3" data-aos="fade-down-right" data-aos-duration="1000">
                             <div class="shadow-lg p-2 rounded-lg custom-shadow">
                                 <div class="p-3 rounded-lg shadow-lg">
-                                    <div class="h4 ww-title text-center">Ceremonia Religiosa <i class="fas fa-church text-muted"></i></div>
-                                    <div class="h4 poppins_regular">Pqa. San Francisco de Asis</div>
+                                    <div class="h4 ww-title text-center text-muted">
+                                        <i class="fas fa-church text-muted"></i> <h1 class="d-inline text-black-50"> + </h1>  <i class="fas fa-glass-cheers"></i>
+                                    </div>
+                                    <div class="h4 ww-title text-center text-muted">
+                                        Ceremonia Civil +  Fiesta
+                                    </div>
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">Centro, 43700 Jaltepec, Tulancingo, Hgo</span></li>
-                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted"></i><span class="pl-2 text-muted">22 Jun 2024, 1PM - 2PM</span></li>
+                                        <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">Av. Plutarco Elías Calles 207, Centro, 43700 Jaltepec, Hgo</span></li>
+                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted"></i><span class="pl-2 text-muted">24 Ago 2024, 2PM - 3PM</span></li>
                                         <li class="d-flex justify-content-center align-items-center">
-                                            <a class="p-0 m-0 " target="_blank" href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDg2OTFqMGoxqAIAsAIA&um=1&ie=UTF-8&fb=1&gl=mx&sa=X&geocode=KT-wuhzDVdCFMQREEgMh96AT&daddr=Centro,+43700+Jaltepec,+Hgo.">
-                                                <button type="button" class="btn btn-warning mt-2 party_btn btn_maps">Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i> </button>
+                                            <a class="p-0 m-0 w-100" target="_blank" href="https://maps.app.goo.gl/boWAPtW6E5QtiRd3A">
+                                                <button type="button" class="btn btn-lg btn-warning mt-2 church_btn w-100">Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i> </button>
                                             </a>
                                         </li>
                                     </ul>
                                     <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid rounded-lg w-100" style="max-width: 200px;" src="images/places/church3.jpg" alt="Wedding Party"/>
+                                        <div class="responsive-iframe-container">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!4v1721965699941!6m8!1m7!1sRFKYeIiHWQSYq6PuhnabmA!2m2!1d20.11462539027018!2d-98.42115372325935!3f115.04367410222672!4f-9.663230524813258!5f0.7820865974627469"
+                                                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-3"  data-aos="fade-up-right" data-aos-duration="1000">
-                            <div class="shadow-lg p-2 rounded-lg">
-                                <div class="p-3 rounded-lg shadow-lg ">
-                                    <div class="h4 ww-title text-center">La Fiesta <i class="fas fa-hat-cowboy text-muted"></i></div>
-                                    <div class="h4 poppins_regular">Rancho Fam. Escobedo</div>
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">S/N Emiliano Zapata, Tulancingo, Hgo.</span></li>
-                                        <li class="pt-2"><i class="text-muted fas fa-calendar-alt "></i><span class="pl-2 text-muted">22 Jun 2024, 2:30 PM</span></li>
-                                        <li class="d-flex justify-content-center align-items-center">
-                                            <a class="p-0 m-0" target="_blank" href="https://maps.app.goo.gl/RhgoTfcJHrviYrUu5">
-                                                <button type="button" class="btn btn-warning mt-2 church_btn"> Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i></button>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid w-100 rounded-lg" style="max-width: 280px;" src="images/places/rancho2.jpg" alt="Reception"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+
                     </div>
                 </div>
             </div>
@@ -195,7 +178,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid mb-2 flower_class" src="../images/horse/horse5.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid mb-2 flower_class" src="{{asset('images/mary/gallery/gallery.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeria de Fotos</h2>
                             </div>
                         </div>
@@ -203,40 +186,34 @@
                         <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
                             <div class="card-columns">
                                 <div class="card">
-                                    <a href="images/quinceanera/q1.jpeg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q1.jpeg" alt="Gallery Pic 1"/>
+                                    <a href="{{asset('images/mary/gallery/1.jpg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/1.jpg')}}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="images/quinceanera/q2.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q2.jpg" alt="Gallery Pic 1"/>
+                                    <a href="{{asset('images/mary/gallery/2.jpg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/2.jpg')}}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="images/quinceanera/q3.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q3.jpg" alt="Gallery Pic 1"/>
+                                    <a href="{{asset('images/mary/gallery/3.jpg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/3.jpg')}}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
-                                <div class="card">
-                                    <a href="images/quinceanera/q4.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q4.jpg" alt="Gallery Pic 1"/>
-                                    </a>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <hr class="hr_rounded rounded">
+
 
 {{--      --}}{{----}}{{-------------------            FORM ASISTENCIA  --}}{{----}}{{--     --}}
             <div class="ww-section ww-rsvp-detail" id="rsvp">
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="../images/horse/horse6.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{asset('images/mary/asistance/asistance.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>
                         </div>
                     </div>
@@ -304,7 +281,7 @@
                 </div>
                 <div class="container text-center py-4 d-none">
                     <audio id="background-music" controls muted autoplay loop>
-                        <source src="/music/vals_amor.mp3" type="audio/mp3">
+                        <source src="/music/golden_hour.mp3" type="audio/mp3">
                     </audio>
                 </div>
             </div>
