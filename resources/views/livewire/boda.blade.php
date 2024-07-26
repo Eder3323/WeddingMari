@@ -162,6 +162,9 @@
                                             <iframe src="https://www.google.com/maps/embed?pb=!4v1721965699941!6m8!1m7!1sRFKYeIiHWQSYq6PuhnabmA!2m2!1d20.11462539027018!2d-98.42115372325935!3f115.04367410222672!4f-9.663230524813258!5f0.7820865974627469"
                                                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
+{{--                                        <div class="row d-flex align-items-center justify-content-center">--}}
+{{--                                            <img class="img-fluid rounded-lg w-100" style="max-width: 3 25px;" src="{{asset('images/mary/location/salon.png')}}" alt="Wedding Party"/>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +209,10 @@
                 </div>
             </div>
 
+<div>
+{{--    --}}{{----}}{{-------------------            REGALOS  --}}
 
+</div>
 
 {{--      --}}{{----}}{{-------------------            FORM ASISTENCIA  --}}{{----}}{{--     --}}
             <div class="ww-section ww-rsvp-detail" id="rsvp">
