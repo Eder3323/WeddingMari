@@ -5,8 +5,8 @@
             <div class="ww-home-page" id="home">
                 <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
                     <div class="container ww-announcement-container">
-                        <div class="mt-lg-5 mb-md-5 p-4" data-aos="zoom-in-down">
-                            <h1 class="ww_my_wedding">
+                        <div class="mt-lg-5 mb-md-5 p-4 bg_transparent" data-aos="zoom-in-down">
+                            <h1 class="ww_my_wedding ">
                                 NUESTRA BODA
                                 <img src="{{asset('images/mary/rings/rings.png')}}" style="height: 55px">
                             </h1>
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="simply-countdown simply-countdown-one mt-4"></div>
-                        <p class="flex mt-2 ww-title_date" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000"
+                        <p class="flex mt-2 ww-title_date bg_transparent" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000"
                            data-aos-offset="10">24 de Agosto 2024
                         </p>
 
@@ -47,7 +47,7 @@
                                 <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color"
                                     data-aos="zoom-in-down" data-aos-duration="1000">Nuestra Historia</h1>
                                 <div class="container">
-                                    <p class=" text-center poppins_regular">Nuestra historia comienza un 18 de febrero del 2016 en una fiesta de una amiga en común, nos presentaron, empezamos a salir y finalmente nos convertimos en novios un 8 de mayo del mismo año. Hoy les anunciamos nuestro próximo matrimonio.</p>
+                                    <p class=" text-center poppins_regular">Está historia de amor comenzó un 9 de mayo de 2022, el día  que jamás olvidaremos, supimos que éramos el uno para el otro...</p>
 
                                 </div>
                             </div>
@@ -150,7 +150,9 @@
                                     </div>
                                     <ul>
                                         <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">Av. Plutarco Elías Calles 207, Centro, 43700 Jaltepec, Hgo</span></li>
-                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted"></i><span class="pl-2 text-muted">24 Ago 2024, 2PM - 3PM</span></li>
+                                        <li class="pt-2"><i class="far fa-calendar-alt text-muted"></i><span class="pl-2 text-muted">24 Ago 2024</span></li>
+                                        <li class="pt-2"><i class="far fa-clock text-muted"></i><span class="pl-2 text-muted">2:00 PM</span></li>
+                                        <li class="pt-2"><i class="fas fa-home text-muted"></i><span class="pl-2 text-muted">Casa empedrada, puerta marrón</span></li>
                                         <li class="d-flex justify-content-center align-items-center">
                                             <a class="p-0 m-0 w-100" target="_blank" href="https://maps.app.goo.gl/boWAPtW6E5QtiRd3A">
                                                 <button type="button" class="btn btn-lg btn-warning mt-2 church_btn w-100">Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i> </button>
@@ -188,14 +190,15 @@
                         <div class="col-md-12 text-center ww-category-filter mb-4"></div>
                         <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
                             <div class="card-columns">
+
                                 <div class="card">
-                                    <a href="{{asset('images/mary/gallery/1.jpg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/1.jpg')}}" alt="Gallery Pic 1"/>
+                                    <a href="{{asset('images/mary/gallery/2.png')}}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/2.png')}}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="{{asset('images/mary/gallery/2.jpg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/2.jpg')}}" alt="Gallery Pic 1"/>
+                                    <a href="{{asset('images/mary/gallery/1.jpeg')}}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{asset('images/mary/gallery/1.jpeg')}}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
@@ -210,7 +213,6 @@
             </div>
 
 <div>
-{{--    --}}{{----}}{{-------------------            REGALOS  --}}
 
 </div>
 
@@ -220,7 +222,9 @@
                     <div class="row">
                         <div class="col">
                             <img class="img-fluid mb-2 flower_class" src="{{asset('images/mary/asistance/asistance.png')}}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                            <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>
+                            <h2 class="h1 text-center pb-3 ww-title " data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>
+                            <p class="py-2 text-sm-center text-center poppins_regular ">Tu confirmación es muy importante para nosotros, por favor confirma tu asistencia a nuestra gran noche.</p>
+
                         </div>
                     </div>
                     <div class="row ww-rsvp-form">
@@ -230,7 +234,7 @@
                                     <div class="row">
                                         <div class="col md-6 pb-3">
                                             <div class="form-group poppins_regular">
-                                                <label for="name-input"> Nombre</label>
+                                                <label for="name-input">Nombre completo *</label>
                                                 <input class="form-control form_class" id="name-input" wire:model="name" type="text" name="name" required="required"/>
                                                 <div class="h3 badge badge-success">@error('name') {{ $message }} @enderror</div>
                                             </div>
@@ -253,8 +257,8 @@
                                     <div class="row pb-3">
                                         <div class="col">
                                             <div class="form-group poppins_regular">
-                                                <label for="message-input">Nombres de quienes asisten</label>
-                                                <textarea class="form-control" id="message-input" name="message" wire:model="people_asist" rows="4"></textarea>
+                                                <label for="message-input">Nombres de quienes asistirán</label>
+                                                <textarea class="form-control" id="message-input" name="message" wire:model="people_asist" rows="4" placeholder="■"></textarea>
                                                 <div class="text-danger">@error('people_asist') {{ $message }} @enderror</div>
                                             </div>
                                         </div>

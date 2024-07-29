@@ -21,8 +21,8 @@
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
     </noscript>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/ring/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ring/favicon-16x16.png">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="css/font-awesome/css/all.min.css?version=5.15.4" rel="stylesheet">
