@@ -15,7 +15,6 @@
                                 <th>Nombre</th>
                                 <th># Personas</th>
                                 <th>Acompañantes</th>
-                                <th>Dia de registro</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -24,7 +23,6 @@
                                     <td>{{ $user->nombre }}</td>
                                     <td>{{ $user->num_personas }}</td>
                                     <td>{{ $user->comentarios }}</td>
-                                    <td>{{ $user->created_at }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
