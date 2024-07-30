@@ -1,6 +1,13 @@
 <div>
+{{--    button to return to home --}}
+    <div class="container ">
 
     <div class="container py-5">
+        <div class="row text-left pb-4">
+            <div class="col-lg-12">
+                <a href="{{ route('Home') }}" class="btn btn-primary">Regresar a Principal <i class="fas fa-undo"></i></a>
+            </div>
+        </div>
         <div class="row text-center pb-4">
             <div class="col-lg-12">
                 <h1 class="poppins_regular">MIS INVITADOS</h1>
