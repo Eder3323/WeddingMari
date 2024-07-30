@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Boda as Boda;
+use App\Http\Livewire\Table as Table;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +18,7 @@ Route::get('/', Boda::class)
     ->name('Home');
 Route::get('/mariela-y-eduardo', Boda::class)
     ->name('Home');
+
+Route::get('/invitados', Table::class)
+    ->name('invitados');
 
