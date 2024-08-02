@@ -535,3 +535,19 @@ body {
     border-radius: 7px;
   background-color: rgba(0, 0, 0, 0.2);
 }
+/* -------------------------------------------- UPLOAD PHOTOS --------------------------------------------*/
+
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
